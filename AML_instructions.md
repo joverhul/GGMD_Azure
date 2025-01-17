@@ -64,6 +64,6 @@ The extended time for the AMPL scorer is due to building the container.
 
 ## Instructions for file edits
 
-For instructions for how to run each specific example, and the file changes necessary see the example README.md files in the subdirectories.
+For instructions for how to run each specific example, and the file changes necessary see the example README.md files in the example subdirectories.
 
 
