@@ -14,7 +14,7 @@ A prepare_image job will be created, and the build should be successful.
 
 ## Job Setup
 
-Create a yaml file for job submission following proper AML practices.  An example yaml file is provided at AML_GGMD.yaml.  This yaml file will serve as a base model for the JTVAE example inside the examples code. This contains the ro_mount input smiles file, the ro_mount input vocab file used to train the JTVAE model, and the ro_mount JTVAE model.  The output is saved as a rw_mount folder that will contain the generationed file from the GMD run. 
+Create a yaml file for job submission following proper AML practices.  An example yaml file is provided at `AML_GGMD.yaml`. (https://github.com/joverhul/GGMD_Azure/blob/main/AML_GGMD.yaml).  This yaml file will serve as a base model for the JTVAE example inside the examples code. This contains the ro_mount input smiles file, the ro_mount input vocab file used to train the JTVAE model, and the ro_mount JTVAE model.  The output is saved as a rw_mount folder that will contain the generationed file from the GMD run. 
 
 The inputs of this file should be customized based on your folder name. 
 ### yaml file contents
@@ -40,7 +40,8 @@ The name of the compute cluster the job will be run on.
 The display name, experiment name, and description are all customizable for what you will call the job.
 
 ### sh script edits
-To submit the job, create a .sh file that will run your desired code. An runnable example can be found script-ggmd.sh.
+To submit the job, create a .sh file that will run your desired code. A runnable example can be found in `script-ggmd.sh`.
+https://github.com/joverhul/GGMD_Azure/blob/main/script-ggmd.sh
 
 If you are using the AMPL scoring function provided by GGMD, you need to build your singularity container that relates to the version of AMPL used, otherwise please comment this out.
 
