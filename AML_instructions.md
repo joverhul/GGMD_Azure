@@ -3,12 +3,12 @@ This is instructions to run the Generalized Generative Molecular Design (GGMD) P
 
 ## Environment Setup
 
-Before beginning, an AML environment should be created. The enviornment source should use an existing docker image with option conda file.
+Before beginning, an AML environment should be created. The enviornment source should use an existing docker image with option conda file. (https://github.com/joverhul/GGMD_Azure/blob/main/Azure_AML_env_conda.yml)
 
 Existing container registry image path (Azure parent image):
 mcr.microsoft.com/aifx/acpt/stable-ubuntu2004-cu116-py38-torch1121:latest
 
-Use the conda file in this repo "Azure_AML_env_conda.yml" as the uploaded customized conda file.
+Use the conda file in this repo `Azure_AML_env_conda.yml` as the uploaded customized conda file.
 
 A prepare_image job will be created, and the build should be successful.
 
