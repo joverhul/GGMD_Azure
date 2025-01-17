@@ -1,3 +1,5 @@
+This software is a branch from [CBIIT](https://github.com/CBIIT/GGMD.git).  Changes were made to the code to easily run on Microsoft Azure in an Azure Machine Learning environment.
+
 # About this GMD
 
 This software is intended to act as a framework for generative molecular design research. Since this GMD follows the basic structure of 
