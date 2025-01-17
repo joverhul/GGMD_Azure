@@ -1,7 +1,7 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 code: GGMD
 command: >-
-  script-fnlgmd.sh ${{inputs.smiles}} ${{inputs.total_vocab}} ${{inputs.model_zinc}} ${{outputs.generations}}
+  script-ggmd.sh ${{inputs.smiles}} ${{inputs.total_vocab}} ${{inputs.model_zinc}} ${{outputs.generations}}
 inputs:
   smiles:
     path: >-
