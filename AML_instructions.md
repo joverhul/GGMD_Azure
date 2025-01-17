@@ -46,13 +46,13 @@ If you are using the AMPL scoring function provided by GGMD, you need to build y
 
 Set your input files in the order that they are listed in the yaml file.  See the example files for guidance.
 
-The source code is uploaded from the folder you provided in the code line of the yaml file. Set your config.yaml for the specific job and the code file set to './source/main.py'.
+The source code is uploaded from the folder you provided in the code line of the yaml file. Set your config.yaml for the specific job and the code file set to `./source/main.py`.
 
 ### submit job
 
-Once all files are updated, run the cell 
+Once all files are updated, run the cell: 
 
-'!az ml job create -f ggmd-submit.yaml'
+`!az ml job create -f ggmd-submit.yaml`
 
 in the ggmd-submit-job.ipynb notebook.
 
