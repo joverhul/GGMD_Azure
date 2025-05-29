@@ -1,4 +1,4 @@
-This software is a branch from [CBIIT](https://github.com/CBIIT/GGMD.git).  Changes were made to the code to easily run on Microsoft Azure in an Azure Machine Learning environment.  For specific instructions about how to use GGMD on Azure please go to [AML Instructions](https://github.com/joverhul/GGMD_Azure/blob/main/AML_instructions.md)
+This software is a branch from [CBIIT](https://github.com/CBIIT/GGMD.git).  Changes were made to the code to easily run on Microsoft Azure in an Azure Machine Learning environment.  For specific instructions about how to use GGMD on Azure please go to [AML Instructions](https://github.com/joverhul/GGMD_Azure/blob/main/AML_instructions.md) The use case this code was adapted for can be downloaded [here](https://github.com/joverhul/GGMD_Azure/blob/main/Use%20Case%20GGMD%20on%20Azure%20-%20draft-submission_compliant.docx).
 
 # About this GMD
 
